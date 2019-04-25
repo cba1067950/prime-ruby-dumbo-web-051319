@@ -3,12 +3,13 @@ def prime?(number)
   iterateArray = (0..number).to_a
   puts "Array = #{iterateArray}"
   puts "Number = #{number}"
+  
   iterateArray.each do |i|
     puts "This is i: #{i}"
-    if number % i == 0  
-      primeCounter += 1 
-      puts "Counter = #{primeCounter}"
-    end
+    #if number % i == 0  
+    #  primeCounter += 1 
+    #  puts "Counter = #{primeCounter}"
+    #end
   end
   
   #check if it is zero
