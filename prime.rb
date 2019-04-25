@@ -8,7 +8,7 @@ def prime?(number)
     
   else #if not zero
     #if it is prime return TRUE
-    (2..number).each 
+    (2..number).each do
   
     #if it is not prime return FALSE
   end
