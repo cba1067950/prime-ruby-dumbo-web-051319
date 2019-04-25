@@ -8,7 +8,8 @@ def prime?(number)
     
   else #if not zero
     #if it is prime return TRUE
-    (2..number).each do
+    iterateArray.each do |i|
+      
   
     #if it is not prime return FALSE
   end
