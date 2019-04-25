@@ -8,10 +8,13 @@ def prime?(number)
     
   else #if not zero
     iterateArray.each do |i|
-      if number % i == 0  #if it is prime return false
-        false
-      else      #if it is not prime return true
-        true 
+      if number % i == 0  
+        primeCounter += 1 
       end
+    
+    if primeCounter > 1 #if it is prime return false
+      false
+    else 
+      true #if it is not prime return true
   end
 end
