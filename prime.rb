@@ -7,10 +7,11 @@ def prime?(number)
     false
     
   else #if not zero
-    #if it is prime return TRUE
     iterateArray.each do |i|
-      number % i
-  
-    #if it is not prime return FALSE
+      if number % i == 0  #if it is prime return false
+        false
+      else      #if it is not prime return FALSE
+        true 
+      end
   end
 end
