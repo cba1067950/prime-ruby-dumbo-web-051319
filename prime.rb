@@ -2,7 +2,7 @@
 def prime?(number)
   puts "Number = #{number}"
   
-  if number == 0 || number == 1 
+  if number < 2 
     false
   else
     iterateArray = (2..number).to_a
@@ -10,6 +10,15 @@ def prime?(number)
     
     iterateArray.each do |i|
       puts "This is i: #{i}"
+      if i % num == 0 
+        primeCounter += 1 
+      end
+      
+      if primeCounter > 1 
+        false
+      else
+        true 
+      end
     end
   end
 end
