@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   iterateArray = (0..number).to_a
-  
+  puts "Array = #{iterateArray}"
   iterateArray.each do |i|
     puts "This is i: #{i}"
     if number % i == 0  
