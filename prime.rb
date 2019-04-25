@@ -3,7 +3,7 @@ def prime?(number)
   iterateArray = (0..number).to_a
   
   iterateArray.each do |i|
-    puts i  
+    puts "This is i: #{i}"
     if number % i == 0  
       primeCounter += 1 
       puts "Counter = #{primeCounter}"
