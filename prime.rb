@@ -8,7 +8,7 @@ def prime?(number)
       primeCounter += 1 
       puts "Counter = #{primeCounter}"
     end
-  
+  end
   
   #check if it is zero
   #if number == 0 || number == 1
