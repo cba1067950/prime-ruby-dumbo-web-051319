@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(number)
+  iterateArray = (0..number)
   #check if it is zero
   if number == 0 || number == 1
     false
