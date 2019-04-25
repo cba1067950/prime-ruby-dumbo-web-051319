@@ -16,5 +16,6 @@ def prime?(number)
       false
     else 
       true #if it is not prime return true
+    end
   end
 end
