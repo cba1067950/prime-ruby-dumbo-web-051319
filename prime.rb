@@ -10,7 +10,7 @@ def prime?(number)
     
     iterateArray.each do |i|
       puts "This is i: #{i}"
-      if i % number == 0 
+      if number % i == 0 
         primeCounter += 1 
       end
       
